@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #121212;
+  color: whitesmoke;
+  font-family: Arial, sans-serif;
+}
+
+#myCanvas {
+  color: whitesmoke;
+}
+
+
+.container {
+  text-align: center;
+}
+
+.control-button {
+  margin: 10px;
+  padding: 15px 20px;
+  border: none;
+  background-color: #333;
+  color: whitesmoke;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.control-button:hover {
+  background-color: #555;
+}
+
+.control-button.active {
+  background-color: whitesmoke;
+}
+
+canvas {
+  border: 4px solid whitesmoke;
+  border-radius: 25px;
+  margin-top: 20px;
+  color: whitesmoke;
+}
+
+.equation-display {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: whitesmoke;
+}

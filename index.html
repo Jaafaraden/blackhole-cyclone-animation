@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Circle Pattern</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      canvas {
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <button id="startButton" class="control-button">Start Animation</button>
+      <button id="pauseButton" class="control-button">Pause Animation</button>
+      <button id="resetButton" class="control-button">Reset Animation</button>
+      <div class="equation-display">
+        Y = x * <span id="dynamicNumber">0.000</span><br />
+        Divisions = <span id="divisions">150</span>
+      </div>
+      <canvas id="myCanvas" width="450" height="450"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
